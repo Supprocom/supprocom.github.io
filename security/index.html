@@ -1,0 +1,35 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width, initial-scale=1"><meta name=theme-color content=#090c0a><meta name=description content="How to report a security vulnerability in a Supprocom project, and how reports are handled."><title>Security policy | Supprocom</title><link rel=icon href=avatar.png><link rel=stylesheet href=styles.css></head>
+<body id=top><a class=skip href=#main-content>Skip to content</a>
+<header class="header wrap"><a class="brand label" href=#top aria-label="Supprocom security policy"><span class=mark><img src=avatar.png alt=""></span><span>supprocom<span class=domain>/security</span></span></a><nav class="nav label" aria-label="Main navigation"><a href=#report>Report</a><a href=https://github.com/Supprocom target=_blank rel=noreferrer>GitHub</a><a href=https://mkn8rn.com target=_blank rel=noreferrer>mkn8rn.com</a></nav></header>
+<main id=main-content>
+<section class="hero section wrap" aria-labelledby=intro-title><div class=copy><p class="eyebrow label">Supprocom | Obrt mkn8rn, vl. Marko Kopričanec</p><h1 id=intro-title><span>Security policy</span><span class="sub gray-text-1">Reporting vulnerabilities</span></h1></div><div class="aside gray-text-1"><p>How to report a security vulnerability in a Supprocom project, and what happens after you do.</p><a class="action label" href="mailto:vulnerabilities@mkn8rn.com?subject=Vulnerability%20report">Report a vulnerability <span aria-hidden=true>&rarr;</span></a></div></section>
+
+<section class="section contact wrap" id=report aria-labelledby=report-title><div class=bar><h2 class=label id=report-title>01 / report</h2></div><div class=contact-wrap><div class=contacts aria-label="Reporting channel"><span class="contact-label label">Report privately by email:</span><a class=contact-row href="mailto:vulnerabilities@mkn8rn.com?subject=Vulnerability%20report"><span class=label>Email</span><strong>vulnerabilities@mkn8rn.com</strong><span class=arrow aria-hidden=true>&rarr;</span></a><p class=note>Please don't open a public issue, discussion or pull request for a vulnerability. Public reports put users at risk before a fix exists.</p></div><div class="intro gray-text-1"><p>Send what you know, even if it is incomplete.</p><div class=guide><span class="contact-label label">A useful report includes:</span><div class=guide-list aria-label="Useful report details"><span>The project and version</span><span>What the vulnerability allows</span><span>Steps or code to reproduce it</span><span>Whether you want credit</span></div></div></div></div></section>
+
+<section class="section wrap" id=process aria-labelledby=process-title><div class=bar><h2 class=label id=process-title>02 / what happens next</h2></div><div class=steps>
+<div class=work><span class="num label">01</span><span class=name>Acknowledgement</span><span class=gray-text-1>You get a reply confirming receipt within 5 working days.</span></div>
+<div class=work><span class="num label">02</span><span class=name>Assessment</span><span class=gray-text-1>The report is reproduced, its severity assessed and the affected versions identified. You are told the outcome.</span></div>
+<div class=work><span class="num label">03</span><span class=name>Fix</span><span class=gray-text-1>A security update is released free of charge for every affected version within its support period, as a new package on nuget.org and GitHub Packages.</span></div>
+<div class=work><span class="num label">04</span><span class=name>Disclosure</span><span class=gray-text-1>A security advisory is published on GitHub when the update is available, with a CVE identifier where one applies. You are credited if you wish.</span></div>
+<div class=work><span class="num label">05</span><span class=name>Authorities</span><span class=gray-text-1>Actively exploited vulnerabilities and severe incidents are reported to CSIRT Croatia and ENISA, as the EU Cyber Resilience Act requires.</span></div>
+</div><p class=note>Please give a reasonable time to release a fix before you disclose a vulnerability yourself. If no fix is published within 90 days of your report, you may disclose it.</p></section>
+
+<section class="section wrap" id=scope aria-labelledby=scope-title><div class=bar><h2 class=label id=scope-title>03 / scope</h2><a class="link label" href=https://github.com/Supprocom target=_blank rel=noreferrer>github.com/Supprocom <span aria-hidden=true>&rarr;</span></a></div><div class=scope>
+<div><h3>Covered projects</h3><ul>
+<li><strong>Every public Supprocom project</strong>All active repositories in the Supprocom GitHub organisation, and the packages published from them.</li>
+<li><a href=https://github.com/orgs/Supprocom/repositories target=_blank rel=noreferrer><strong>See the repositories &rarr;</strong>github.com/orgs/Supprocom/repositories</a></li>
+</ul></div>
+<div><h3>Supported versions</h3><ul>
+<li><strong>Five years from release</strong>Each released version receives security updates for five years from its release date, while the publisher's business is active. The end date is stated with each release.</li>
+<li><strong>Not covered</strong>Archived or retired projects, and vulnerabilities in third-party dependencies, which belong with their own maintainers. Tell us if a dependency's vulnerability affects a Supprocom project.</li>
+</ul></div>
+</div></section>
+
+<section class="section contact wrap" id=faq aria-labelledby=faq-title><div class=bar><h2 class=label id=faq-title>04 / quick answers</h2></div><div class=faq><div class=faq-list>
+<div class=faq-item><h4>Is there a bug bounty?</h4><p>No paid bounty. Every valid report is welcome, and you're credited in the advisory if you wish.</p></div>
+<div class=faq-item><h4>Where do ordinary bugs go?</h4><p>To the project's GitHub issues. The address above is for security vulnerabilities only.</p></div>
+<div class=faq-item><h4>Will I get into trouble for testing?</h4><p>Not if you act in good faith: test only your own installations, touch no one else's data, and report privately.</p></div>
+<div class=faq-item><h4>Who handles reports?</h4><p>The publisher, Obrt mkn8rn, vl. Marko Kopričanec, in Križevci, Croatia, who also writes the fixes.</p></div>
+</div></div></section>
+</main>
+<footer class="footer wrap"><span>mkn8rn, obrt za računalno programiranje i usluge, vl. Marko Kopričanec, Ulica Ivana Gundulića 98, 48260 Križevci, Republic of Croatia</span><span>MBO: 99342758</span></footer></body></html>
